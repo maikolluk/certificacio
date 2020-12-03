@@ -1,0 +1,36 @@
+a{
+    text-decoration:none;
+}
+.no-style{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.vertical
+{
+    display: block;
+    width: 120px;
+    color: springgreen;
+    background-color: tan;
+    text-align: center;
+    padding: 4px;
+}
+.vertical a:hover, .vertical a:active{
+    background-color: tomato;
+}
+.horizontal li{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.horizontal a{
+    margin: 0;
+    color: turquoise;
+    background-color: violet;
+    text-align: center;
+    padding: 4px;
+
+}
+.horizontal a :hover, .horizontal a :active{
+    background-color: yellow;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño</title>
+
+    <link rel="stylesheet" href="colors.css" type="text/css">
+    <link rel="stylesheet" href="base.css" type="text/css">
+    <link rel="stylesheet" href="great.css" type="text/css" media="screen and (min-width: 981px)">
+    <link rel="stylesheet" href="medium.css" type="text/css"media="screen and (min-width: 481px) and (max-width: 980px) ">
+    <link rel="stylesheet" href="mini.css" type="text/css" media="screen and (max-width: 480px)">
+
+</head>
+<body>
+    <header>
+        <h1>Ejemplo de diseño adaptable</h1>
+        <h2 class="display-great">Grande</h2>
+        <h2 class="display-medium">Mediano</h2>
+        <h2 class="display-mini">Mini</h2>
+    </header>
+    <div id="wrapper">
+    
+        <nav id="main-nav">
+            <h2>MI menu</h2>
+            <ul class="menu display-great display-medium">
+                <li><a href="">Uno</a></li>
+                <li><a href="">Dos</a></li>
+                <li><a href="">Tres</a></li>
+            </ul>
+
+            <select class="display-mini">
+                <option>Uno</option>
+                <option>Dos</option>
+                <option>Tres</option>
+            </select>
+        </nav>
+
+        <section id="main-section">
+            <h2>Contenido</h2>
+
+            <article>
+                <h3><a href="">Entrada 1</a></h3>
+                <p class="display-great display-medium">Un loren ipsun resumido</p>
+            </article>
+
+            <article>
+                <h3><a href="">Entrada 2</a></h3>
+                <p class="display-great display-medium">Un loren ipsun resumido</p>
+            </article>
+
+            <article>
+                <h3><a href="">Entrada 3</a></h3>
+                <p class="display-great display-medium">Un loren ipsun resumido</p>
+            </article>
+        </section>
+    
+    </div>
+
+    <footer>
+        <p> el que nadie lee Xd</p>
+
+        <select class="display-mini">
+            <option>Uno</option>
+            <option>Dos</option>
+            <option>Tres</option>
+        </select>
+    </footer>
+    
+    
+</body>
+</html>

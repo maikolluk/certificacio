@@ -1,0 +1,18 @@
+body{
+    color: sandybrown;
+}
+a, a:link, a:visited, a:active , a:hover{
+    color: seagreen;
+}
+header{
+    background-color: slateblue;
+}
+nav{
+    background-color: springgreen;
+}
+section{
+    background-color: tomato;
+}
+footer{
+    background-color: teal;
+}

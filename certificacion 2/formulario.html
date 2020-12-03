@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+    <h1>formulario HTML5</h1>
+    <p>esta parte es un parrafo para lalalalalall   </p>
+
+    <form id ="form-orden">
+        <p>
+            <label for="name">Nombre (obligatorio)</label>
+            <input type="text" name="name" id="name"
+            placeholder="maiko lucas"
+            autofocus
+            autocomplete
+            required/>    
+        </p>
+        
+        
+        <p>
+            <label for="passwd">ingrese Contraseña obligatorio</label>
+            <input type="password" name="passwd" id="passwd"
+            placeholder="qwe1234"
+            pattern="[a-z]{3}[0-9]{4}"
+            required>la comtraseña debe de tener 3 letra y 4 numeros
+        </p>
+        <p>
+            <label for="telf">Ingrese su numero telefonico</label>
+            <input type="tel" name="telf" id="telf" placeholder="098765431234">
+        </p>
+        <p>
+            <label for="Email">Ingrese Correo electronico</label>
+            <input type="email" name="Email" id="Email" placeholder="maikol@gmail.com">
+        </p>
+        <p>
+            <label for="pweb">tu pagina web</label>
+            <input type="url" name="pweb" id="pweb" placeholder="http//wwww.majandbd.com">
+        </p>
+        <p>
+            <label for="ntemas">N° temas</label>
+            <input type="number" name="ntemas" id="ntemas " min="2" max="16" placeholder="2" step="2"> 2 al 16 solo pares
+            
+        </p>
+        <p>
+            <label for="fenvi">Fecha de envio</label>
+            <input type="date" name="fenvi" id="fenvi" min="2019-09-16">(del 16 de septiembre del 2019 comominimo)
+        </p>
+        <p>
+            <label for="col">Color</label>
+            <input type="color" name="col" id="col" value="#FFFF">
+
+        </p>
+        <p>
+            <label for="Bus">Buscar</label>
+            <input type="search" name="Bus" id="Bus">
+
+        </p>
+        <p>
+            <label for="RanV">Rangp de Valores </label>
+            <input type="range" name="RanV" id="RanV" min="1" max="10 "> entre 1 y 10
+        </p>
+        <p>
+            <fieldset>
+                <legend>Selecciona una prioridad</legend>
+                <p><label> <input type="radio" name="Priority" value="baja" checked>Baja </label></p>
+                <p><label> <input type="radio" name="Priority" value="media" >Media </label></p>
+                <p><label> <input type="radio" name="Priority" value="alta" >Alta </label></p>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>seleccione</legend>
+                <p><label> <input type="checkbox" name="Priori" value="urgente" checked>Urgente </label></p>
+                <p><label> <input type="checkbox" name="Priori" value="acuse" >Con use de recibo </label></p>
+                <p><label> <input type="checkbox" name="Priori" value="reembolso" >Contra reenbolso </label></p>                    
+                
+            </fieldset>
+        </p>
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+
+    
+</body>
+</html>
